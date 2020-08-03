@@ -1,0 +1,58 @@
+.container-fluid
+	.row.justify-content-center
+		.col-10.col-md-10.col-lg-8.shadow-lg.bg-white.rounded.my-5.py-3
+			.row.pb-3.justify-content-center
+				.col-8.col-md-3
+					img.img-fluid(src='../img/logo-litera.svg')
+
+				.col-12.py-3
+					h1.text-center
+						|Історія України
+						br
+						small
+							|7 клас
+					p.text-center
+						|Віталій Власов, Олександр Панарін, Юлія Топольницька
+				.col-12.col-sm-6.col-md-4
+					img.img-fluid(src='../img/grade-7-ist-ukr.jpg')
+				.col-12.col-sm-6.col-md-4
+					//a(href="/download/kalendarne-planuvannja.pdf" class="btn btn-success w-100 my-2" download="Календарне планування")
+						|Календарне планування
+					a.btn.btn-secondary.w-100.my-2(href='/download/grade-7-ist-ukr.pdf' download="Історія України 7 клас")
+						|Електронна версія
+					button.btn.btn-secondary.w-100.my-2(type="button" role="button" data-toggle="modal" data-target=".modal_presentation")
+						|Презентації
+					a.btn.btn-secondary.w-100.my-2(href="/download/dlia-dopytlyvyh.zip" download="Для допитливих")
+						|Для допитливих
+					button.btn.btn-secondary.w-100.my-2(type="button" role="button" data-toggle="modal" data-target=".modal_print")
+						|Матеріали для роздруку
+					a.btn.btn-secondary.w-100.my-2(href="/download/grade-7-ist-ukr-hronolog.pdf" download="Хронологічна таблиця")
+						|Хронологічна таблиця
+					a.btn.btn-secondary.w-100.my-2(href="http://ist7slovnyk.e-litera.com.ua")
+						|Онлайн-словник
+
+.modal.fade.modal_presentation(tabindex="-1" role="dialog" aria-lebelledby="modalPresentation" aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				h5.modal-titel
+					|Презентації
+				button.close(type="button" data-dismiss="modal" aria-lebel="Close")
+					span(aria-hidden="true") &times;
+			.modal-body.py-4
+				a(href="/download/paragraph-1.pptx" class="d-block" download="Параграф 1")
+					|Параграф 1
+
+.modal.fade.modal_print(tabindex="-1" role="dialog" aria-lebelledby="modalPrint" aria-hidden="true")
+	.modal-dialog
+		.modal-content
+			.modal-header
+				h5.modal-titel
+					|Матеріали для роздруку
+				button.close(type="button" data-dismiss="modal" aria-lebel="Close")
+					span(aria-hidden="true") &times;
+			.modal-body.py-4
+				a(href="/download/dynastia-knjaziv-ruskih.pdf" class="d-block" download="Династія руських князів")
+					|Династія руських князів
+				a(href="/download/knjazi-vkl.pdf" class="d-block" download="Князі ВКЛ")
+					|Князі ВКЛ

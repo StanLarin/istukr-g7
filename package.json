@@ -1,0 +1,29 @@
+{
+  "name": "grade11",
+  "version": "1.0.0",
+  "description": "pages grade 11 for e-litera",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "personal",
+    "web",
+    "site",
+    "v-card"
+  ],
+  "author": "Stanislav Larin",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.4",
+    "del": "^4.1.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
